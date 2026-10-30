@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sh1ft1pro — киберспортсмен и инженер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="hero">
+    <!-- Положи картинку кота рядом с index.html и назови её avatar.jpg -->
+    <img class="avatar" src="kotost_ava.jpg" alt="sh1ft1pro">
+    <h1>sh1ft1pro</h1>
+    <p class="tagline">Киберспортсмен · Инженер-робототехник · Программист</p>
+  </header>
+
+  <main>
+    <!-- О себе -->
+    <section class="card">
+      <h2>Обо мне</h2>
+      <p>
+        Привет! Я sh1ft1pro. Совмещаю киберспорт (CS2) с инженерией и робототехникой. 
+        Капитан команды NEXUS CEC и участник инженерной команды Team Big Brains. 
+        Пишу код на C++ и Python, разрабатываю много интересных проектов.
+      </p>
+    </section>
+
+    <!-- Киберспорт -->
+    <section class="card">
+      <h2>Киберспорт</h2>
+      <ul class="list">
+        <li><strong>Игра:</strong> CS2</li>
+        <li><strong>Позиция:</strong> Капитан, снайпер (иногда рифлер)</li>
+        <li><strong>Команда:</strong> NEXUS CEC</li>
+        <li><strong>Достижения:</strong> Чемпион Москвы по электронике, участник конкурсов по программированию, многочисленные инженерные конкурсы.</li>
+      </ul>
+    </section>
+
+    <!-- Инженерия и робототехника -->
+    <section class="card">
+      <h2>Инженерия и Робототехника</h2>
+      <ul class="list">
+        <li><strong>Команда:</strong> Team Big Brains</li>
+        <li><strong>Направление:</strong> Спортивная робототехника (Евробот). проектная робототехника</li>
+        <li><strong>Достижения:</strong> Участник соревнований ЕВРОБОТ-РОССИЯ, Евробот 2025 и 2026, Бронза чемпионата Москвы по электронике (2025)</li>
+      </ul>
+    </section>
+
+    <!-- Программирование -->
+    <section class="card">
+      <h2>Программирование</h2>
+      <p>Основной стек технологий для разработки роботов и интерфейсов:</p>
+      <ul class="tags">
+        <li>C++</li>
+        <li>Python</li>
+        <li>Telegram-bots</li>
+        <li>Arduino</li>
+        <li>Game or CS2 programming</li>
+      </ul>
+    </section>
+
+    <!-- Проекты -->
+    <section class="card">
+      <h2>Проекты</h2>
+      
+      <h3 class="project-year">Сейчас</h3>
+      <ul class="project-list">
+        <li><strong>REM (Robot Emulator MODIFICATED)</strong> — новая версия прототипа интерфейса «робот-компьютер».</li>
+      </ul>
+
+      <h3 class="project-year">2024</h3>
+      <ul class="project-list">
+        <li>Разработка прототипа интерфейса «робот-компьютер».</li>
+      </ul>
+
+      <h3 class="project-year">2023</h3>
+      <ul class="project-list">
+        <li>Проект "Робо-ришка", часть 1 — исследование модели "шагающего" перемещения.</li>
+      </ul>
+    </section>
+
+    <!-- Блог и контакты -->
+    <section class="card">
+      <h2>Блог и контакты</h2>
+      <ul class="contacts">
+        <li><a href="https://twitch.tv/sh1ft1pro" target="_blank" rel="noopener">Twitch</a></li>
+        <li><a href="https://t.me/code_numic" target="_blank" rel="noopener">Telegram</a></li>
+        <li><a href="mailto:mail@example.com">daniel8.8@mail.ru</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> sh1ft1pro</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

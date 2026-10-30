@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f4f5f7;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Шапка */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  color: #666;
+  font-size: 1.05rem;
+}
+
+/* Карточки */
+main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  padding: 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  border-left: 4px solid #4f7cff;
+  padding-left: 10px;
+}
+
+/* Обычные списки */
+.list {
+  list-style: none;
+}
+
+.list li {
+  padding: 4px 0;
+}
+
+/* Стили для проектов (как на скрине) */
+.project-year {
+  font-size: 1.05rem;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.project-year:first-of-type {
+  margin-top: 0;
+}
+
+.project-list {
+  list-style-type: square;
+  padding-left: 24px;
+  color: #4f7cff; /* Цвет маркеров */
+  margin-bottom: 12px;
+}
+
+.project-list li {
+  margin-bottom: 6px;
+  color: #222; /* Возвращаем цвет тексту */
+}
+
+/* Теги навыков */
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tags li {
+  background: #eef2ff;
+  color: #33418a;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: .9rem;
+}
+
+/* Ссылки */
+.contacts {
+  list-style: none;
+}
+
+.contacts li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #4f7cff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+  font-size: .9rem;
+}
+
+/* Мобильная версия */
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.5rem; }
+  .card { padding: 20px; }
+  .avatar { width: 120px; height: 120px; }
+}
